@@ -5,12 +5,14 @@ build/
 out/
 *.iml
 
-# Solusi hands-on (jawaban) — tidak ikut di-commit, mahasiswa hanya dapat soal latihan
+# Solusi hands-on
 solusi/
 *-solusi/
 
-handson/
+# Hands-on
+handson*/
 *-handson/
+
 local.properties
 gradlew
 gradlew.bat
