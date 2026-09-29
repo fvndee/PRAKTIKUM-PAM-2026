@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .gradle/
 build/
 */build/
@@ -16,3 +17,26 @@ handson*/
 local.properties
 gradlew
 gradlew.bat
+=======
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+node_modules/
+.androidApp
+.iosApp
+>>>>>>> 599120b (Praktikum ke 3)
