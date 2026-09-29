@@ -48,4 +48,4 @@ ProfileCard(
 ```
 
 ## Bukti Screenshot Hasil Akhir
-![Profile App Screenshot](hasil\praktikum3.png)
+![Profile App Screenshot](hasil/praktikum3.png)
