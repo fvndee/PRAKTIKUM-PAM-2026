@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-rootProject.name = "pertemuan-2-coroutines-flow"
-
-include(
-    "handson1-latihan",
-    "handson2-latihan",
-    "handson3-latihan",
-    "praktikum2"
-)
-=======
 rootProject.name = "P3"
 
 pluginManagement {
@@ -42,6 +32,6 @@ plugins {
 }
 
 include(":androidApp")
+include(":praktikum2")
 include(":praktikum3")
 include(":shared")
->>>>>>> 599120b (Praktikum ke 3)
