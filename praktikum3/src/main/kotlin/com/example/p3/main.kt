@@ -1,7 +1,7 @@
 package com.example.p3
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
@@ -9,37 +9,39 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.LocationOn
-import androidx.compose.material.icons.filled.Person
+
 import androidx.compose.material.icons.filled.Phone
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Brush
+
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.foundation.Image
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.painterResource
+
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
+import org.jetbrains.compose.resources.painterResource
+import praktikum_pam.generated.resources.Res
+import praktikum_pam.generated.resources.foto
 
 fun main() = application {
     Window(
         onCloseRequest = ::exitApplication,
         title = "My Profile App",
-        state = rememberWindowState(width = 800.dp, height = 600.dp)
+        state = rememberWindowState(width = 800.dp, height = 600.dp),
     ) {
         MaterialTheme {
             Surface(
                 modifier = Modifier.fillMaxSize(),
-                color = Color(0xFFF5F5F5)
+                color = Color(0xFFF5F5F5),
             ) {
                 ProfileScreen()
             }
@@ -50,7 +52,7 @@ fun main() = application {
 @Composable
 fun ProfileScreen() {
     BoxWithConstraints(
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier.fillMaxSize(),
     ) {
         val isCompact = maxWidth < 600.dp
         val scrollState = rememberScrollState()
@@ -61,7 +63,7 @@ fun ProfileScreen() {
                 .verticalScroll(scrollState)
                 .padding(
                     horizontal = if (isCompact) 16.dp else 48.dp,
-                    vertical = if (isCompact) 16.dp else 24.dp
+                    vertical = if (isCompact) 16.dp else 24.dp,
                 ),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
@@ -154,25 +156,14 @@ fun ProfileHeader(
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
         val photoSize = if (isCompact) 100.dp else 120.dp
-        Box(
+        Image(
+            painter = painterResource(Res.drawable.foto),
+            contentDescription = "Profile Photo",
             modifier = Modifier
                 .size(photoSize)
-                .clip(CircleShape)
-                .background(
-                    color = Color(0xFF6200EE),
-                    shape = CircleShape
-                ),
-            contentAlignment = Alignment.Center
-        ) {
-            Image(
-                painter = painterResource("foto.jpg"),
-                contentDescription = "Profile Avatar",
-                contentScale = ContentScale.Crop,
-                modifier = Modifier
-                    .size(photoSize)
-                    .clip(CircleShape)
-            )
-        }
+                .clip(CircleShape),
+            contentScale = ContentScale.Crop
+        )
         Column(
             modifier = Modifier.weight(1f).padding(start = if (isCompact) 8.dp else 16.dp)
         ) {

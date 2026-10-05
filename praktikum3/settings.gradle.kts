@@ -1,4 +1,4 @@
-rootProject.name = "P3"
+rootProject.name = "PRAKTIKUM_PAM"
 
 pluginManagement {
     repositories {

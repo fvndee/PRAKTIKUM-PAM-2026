@@ -48,4 +48,4 @@ ProfileCard(
 ```
 
 ## Bukti Screenshot Hasil Akhir
-![Profile App Screenshot](D:\Kuliah\Semester5\PRAKTIKUM%20PAM\P3\hasil\praktikum3.png)
+![Profile App Screenshot](D:\Kuliah\Semester5\PRAKTIKUMPAM\praktikum3/hasil.png)

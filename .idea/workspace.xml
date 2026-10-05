@@ -10,7 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="260d15ee-1044-4884-9732-a3fdf063c32f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum3/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/praktikum3/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum3/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/praktikum3/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum3/src/main/kotlin/com/example/p3/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/praktikum3/src/main/kotlin/com/example/p3/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum4/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/praktikum4/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +49,7 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -70,30 +75,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.P3 [:praktikum2:PraktikumKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.P3 [:praktikum3:com.example.p3.MainKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.desktopApp [hot] 🔥.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Kuliah/Semester5/PRAKTIKUM PAM/P3&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.P3 [:praktikum2:PraktikumKt.main()].executor": "Run",
+    "Gradle.P3 [:praktikum3:com.example.p3.MainKt.main()].executor": "Run",
+    "Gradle.desktopApp [hot] 🔥.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Kuliah/Semester5/PRAKTIKUMPAM",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Kuliah\Semester5\PRAKTIKUM PAM\P3\praktikum4" />
