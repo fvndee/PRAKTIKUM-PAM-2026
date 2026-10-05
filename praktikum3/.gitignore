@@ -17,12 +17,7 @@ captures
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
 node_modules/
-androidApp/
-iosApp/
 shared/
-gradle.properties
 gradle/
 gradlew
 gradlew.bat
-settings.gradle.kts
-build.gradle.kts
