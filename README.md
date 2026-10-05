@@ -1,1 +1,0 @@
-# Tugas Praktikum PAM 2026
